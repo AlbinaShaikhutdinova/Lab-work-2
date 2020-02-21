@@ -129,7 +129,7 @@ namespace Lab2
         {
             this.name = name;
             this.address=address;
-            this.phonenumber=phonenumber;           
+            this.phonenumber=phonenumber;             
         }
 
         public override void Display()
