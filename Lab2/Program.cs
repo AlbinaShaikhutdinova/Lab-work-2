@@ -21,7 +21,7 @@ namespace Lab2
             Trace.Listeners.Add(tr1);
             Trace.Flush();
 
-
+              
             PhoneBook[] info = Input();
 
             DisplayAllInfo(info);
