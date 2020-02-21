@@ -58,7 +58,7 @@ namespace Lab2
 
             using (FileStream fs = new FileStream("phonebook.xml", FileMode.OpenOrCreate))
             {
-                formatter.Serialize(fs, info);
+                formatter.Serialize(fs, info); 
             }
             return info;
           
